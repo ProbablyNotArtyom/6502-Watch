@@ -1,0 +1,1765 @@
+EESchema Schematic File Version 4
+LIBS:6502 Watch-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Bus Line
+	3400 1025 3400 3125
+Wire Bus Line
+	5400 1625 5400 3125
+Wire Bus Line
+	2750 1625 2750 3125
+Wire Bus Line
+	2750 3275 2750 4025
+Wire Bus Line
+	8150 1675 8150 3225
+Wire Bus Line
+	4900 1225 4900 2325
+Wire Bus Line
+	8150 1025 8150 1475
+Wire Bus Line
+	2850 3225 5300 3225
+Wire Wire Line
+	10025 2375 10825 2375
+Wire Wire Line
+	10075 2275 10825 2275
+Wire Wire Line
+	10125 2175 10825 2175
+Wire Wire Line
+	10175 2075 10825 2075
+Wire Wire Line
+	10225 1975 10825 1975
+Wire Wire Line
+	10275 1875 10825 1875
+Wire Wire Line
+	2000 6425 2000 6675
+Wire Wire Line
+	5800 3775 5800 3825
+$Comp
+L 6502-Watch-rescue:GND #PWR?
+U 1 1 59B530F9
+P 3375 5500
+F 0 "#PWR?" H 3375 5250 50  0001 C CNN
+F 1 "GND" H 3375 5350 50  0000 C CNN
+F 2 "" H 3375 5500 50  0001 C CNN
+F 3 "" H 3375 5500 50  0001 C CNN
+	1    3375 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:+3V3 #PWR?
+U 1 1 59B530A3
+P 3375 5100
+F 0 "#PWR?" H 3375 4950 50  0001 C CNN
+F 1 "+3V3" H 3375 5240 50  0000 C CNN
+F 2 "" H 3375 5100 50  0001 C CNN
+F 3 "" H 3375 5100 50  0001 C CNN
+	1    3375 5100
+	1    0    0    -1  
+$EndComp
+Text GLabel 10425 4100 3    39   Input ~ 0
+RST
+Wire Wire Line
+	10425 3900 10425 4100
+Wire Wire Line
+	10725 3900 10425 3900
+Wire Wire Line
+	10825 1575 9800 1575
+Wire Wire Line
+	10725 4550 10850 4550
+Wire Wire Line
+	10725 4300 10725 4550
+$Comp
+L 6502-Watch-rescue:+3V3 #PWR?
+U 1 1 59AA828B
+P 10850 4550
+F 0 "#PWR?" H 10850 4400 50  0001 C CNN
+F 1 "+3V3" H 10850 4690 50  0000 C CNN
+F 2 "" H 10850 4550 50  0001 C CNN
+F 3 "" H 10850 4550 50  0001 C CNN
+	1    10850 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2475 5400 2975 5400
+Wire Wire Line
+	2925 5200 2975 5200
+Wire Wire Line
+	2825 5300 2925 5200
+Wire Wire Line
+	2475 5300 2825 5300
+$Comp
+L 6502-Watch-rescue:74LS00 U10
+U 2 1 59A16B7B
+P 4775 5300
+F 0 "U10" H 4775 5350 50  0000 C CNN
+F 1 "74LS00" H 4775 5200 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 4775 5300 50  0001 C CNN
+F 3 "" H 4775 5300 50  0001 C CNN
+	2    4775 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4175 5300 4175 5400
+Wire Wire Line
+	4175 5200 4175 5300
+Connection ~ 4175 5300
+$Comp
+L 6502-Watch-rescue:74LS00 U10
+U 1 1 59A16AB4
+P 3575 5300
+F 0 "U10" H 3575 5350 50  0000 C CNN
+F 1 "74LS00" H 3575 5200 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 3575 5300 50  0001 C CNN
+F 3 "" H 3575 5300 50  0001 C CNN
+	1    3575 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1275 5300 1275 5400
+Wire Wire Line
+	10625 3700 10625 4300
+Wire Wire Line
+	10725 3700 10625 3700
+Wire Wire Line
+	10725 2975 10675 2975
+Wire Wire Line
+	10825 2875 10725 2975
+Wire Wire Line
+	1000 3375 1000 3275
+Wire Wire Line
+	1000 3575 1000 3475
+Wire Bus Line
+	2850 4125 7300 4125
+Wire Wire Line
+	10025 5075 9800 5075
+Wire Wire Line
+	10075 4625 9800 4625
+Wire Wire Line
+	10125 4175 9800 4175
+Wire Wire Line
+	10025 2375 10025 5075
+Wire Wire Line
+	10075 2275 10075 4625
+Wire Wire Line
+	10125 2175 10125 4175
+Wire Wire Line
+	10275 5750 10125 5750
+Wire Wire Line
+	10225 5850 10125 5850
+Wire Wire Line
+	10175 5950 10125 5950
+Wire Wire Line
+	10175 2075 10175 5950
+Wire Wire Line
+	10225 1975 10225 5850
+Wire Wire Line
+	10275 1875 10275 5750
+Wire Wire Line
+	10325 6050 10125 6050
+Wire Wire Line
+	10325 6150 10325 6050
+Wire Wire Line
+	9225 5950 9225 5850
+Wire Wire Line
+	8300 2975 8600 2975
+Wire Wire Line
+	8600 3475 8325 3475
+Wire Wire Line
+	8600 1575 8250 1575
+Wire Wire Line
+	8600 1475 8250 1475
+Wire Wire Line
+	8600 1375 8250 1375
+Wire Wire Line
+	8600 1275 8250 1275
+Wire Wire Line
+	950  7250 1200 7250
+Wire Wire Line
+	950  6675 950  7250
+Wire Wire Line
+	1200 6675 950  6675
+Wire Wire Line
+	1950 6425 2000 6425
+Wire Wire Line
+	1200 6775 1100 6775
+Wire Wire Line
+	1200 7000 1200 6875
+Wire Wire Line
+	1000 7000 1200 7000
+Wire Wire Line
+	2000 6675 2450 6675
+Connection ~ 2000 6425
+Wire Wire Line
+	2000 6050 2000 6425
+Wire Wire Line
+	1350 6425 1350 6350
+Wire Wire Line
+	1000 6425 1350 6425
+Wire Wire Line
+	1000 6425 1000 7000
+Wire Wire Line
+	925  1975 1000 1975
+Wire Wire Line
+	3000 1525 2850 1525
+Wire Wire Line
+	800  3275 800  3325
+Wire Wire Line
+	675  1625 1000 1625
+Wire Wire Line
+	675  1700 675  1625
+Wire Wire Line
+	9800 2925 9950 2775
+Wire Wire Line
+	9800 2825 9950 2675
+Wire Wire Line
+	9800 2725 9950 2575
+Wire Wire Line
+	9800 2625 9950 2475
+Wire Wire Line
+	9800 2525 9950 2375
+Wire Wire Line
+	9800 2425 9950 2275
+Wire Wire Line
+	9800 2325 9950 2175
+Wire Wire Line
+	9950 2775 10825 2775
+Wire Wire Line
+	9950 2675 10825 2675
+Wire Wire Line
+	9950 2575 10825 2575
+Wire Wire Line
+	9950 2475 10825 2475
+Connection ~ 10025 2375
+Wire Wire Line
+	9950 2375 10025 2375
+Connection ~ 10075 2275
+Wire Wire Line
+	9950 2275 10075 2275
+Connection ~ 10125 2175
+Wire Wire Line
+	9950 2175 10125 2175
+Connection ~ 10175 2075
+Wire Wire Line
+	9950 2075 10175 2075
+Wire Wire Line
+	9800 2225 9950 2075
+Connection ~ 10225 1975
+Wire Wire Line
+	9800 1975 10225 1975
+Connection ~ 10275 1875
+Wire Wire Line
+	9800 1875 10275 1875
+Wire Wire Line
+	9800 1775 10825 1775
+Wire Wire Line
+	7150 3725 7000 3725
+Wire Wire Line
+	4650 2875 4925 2875
+Wire Wire Line
+	1000 3275 800  3275
+Wire Wire Line
+	2075 4425 2275 4425
+Wire Wire Line
+	1000 2175 800  2175
+Wire Wire Line
+	5800 3775 5700 3775
+Wire Wire Line
+	2850 1725 3000 1725
+Wire Wire Line
+	2850 1625 3000 1625
+Wire Bus Line
+	8050 925  3500 925 
+Wire Bus Line
+	7400 1225 7400 3325
+Wire Bus Line
+	7400 3325 7400 4025
+Connection ~ 7400 3325
+Wire Bus Line
+	8050 3325 7400 3325
+Wire Wire Line
+	8600 2475 8250 2475
+Wire Wire Line
+	8600 2375 8250 2375
+Wire Wire Line
+	8600 2275 8250 2275
+Wire Wire Line
+	8600 2175 8250 2175
+Wire Wire Line
+	8600 2075 8250 2075
+Wire Wire Line
+	8600 1975 8250 1975
+Wire Wire Line
+	8600 1875 8250 1875
+Wire Wire Line
+	8600 1775 8250 1775
+Wire Wire Line
+	925  1975 925  1825
+Wire Wire Line
+	650  2275 1000 2275
+Connection ~ 5800 3775
+Wire Wire Line
+	5800 3725 5800 3775
+Wire Bus Line
+	5000 1125 7300 1125
+Wire Wire Line
+	7300 2225 7000 2225
+Wire Wire Line
+	7300 2125 7000 2125
+Wire Wire Line
+	7300 2025 7000 2025
+Wire Wire Line
+	7300 1925 7000 1925
+Wire Wire Line
+	7300 1825 7000 1825
+Wire Wire Line
+	7300 1725 7000 1725
+Wire Wire Line
+	7300 1625 7000 1625
+Wire Wire Line
+	7300 1525 7000 1525
+Wire Wire Line
+	5500 2825 5800 2825
+Wire Wire Line
+	5500 2725 5800 2725
+Wire Wire Line
+	5500 2625 5800 2625
+Wire Wire Line
+	5500 2525 5800 2525
+Wire Wire Line
+	5500 2425 5800 2425
+Wire Wire Line
+	5500 2325 5800 2325
+Wire Wire Line
+	5500 2225 5800 2225
+Wire Wire Line
+	5500 2125 5800 2125
+Wire Wire Line
+	5500 2025 5800 2025
+Wire Wire Line
+	5500 1925 5800 1925
+Wire Wire Line
+	5500 1825 5800 1825
+Wire Wire Line
+	5500 1725 5800 1725
+Wire Wire Line
+	5500 1625 5800 1625
+Wire Wire Line
+	5500 1525 5800 1525
+Wire Wire Line
+	4650 2225 4800 2225
+Wire Wire Line
+	4650 2125 4800 2125
+Wire Wire Line
+	4650 2025 4800 2025
+Wire Wire Line
+	4650 1925 4800 1925
+Wire Wire Line
+	4650 1825 4800 1825
+Wire Wire Line
+	4650 1725 4800 1725
+Wire Wire Line
+	4650 1625 4800 1625
+Wire Wire Line
+	4650 1525 4800 1525
+Wire Wire Line
+	3500 2925 3650 2925
+Wire Wire Line
+	3500 2825 3650 2825
+Wire Wire Line
+	3500 2725 3650 2725
+Wire Wire Line
+	3500 2625 3650 2625
+Wire Wire Line
+	3500 2525 3650 2525
+Wire Wire Line
+	3500 2425 3650 2425
+Wire Wire Line
+	3500 2325 3650 2325
+Wire Wire Line
+	3500 2225 3650 2225
+Wire Wire Line
+	3500 2125 3650 2125
+Wire Wire Line
+	3500 2025 3650 2025
+Wire Wire Line
+	3500 1925 3650 1925
+Wire Wire Line
+	3500 1825 3650 1825
+Wire Wire Line
+	3500 1725 3650 1725
+Wire Wire Line
+	3500 1625 3650 1625
+Wire Wire Line
+	3500 1525 3650 1525
+Wire Wire Line
+	2500 3875 2650 3875
+Wire Wire Line
+	2500 3775 2650 3775
+Wire Wire Line
+	2500 3675 2650 3675
+Wire Wire Line
+	2500 3575 2650 3575
+Wire Wire Line
+	2500 3475 2650 3475
+Wire Wire Line
+	2500 3375 2650 3375
+Wire Wire Line
+	2500 3275 2650 3275
+Wire Wire Line
+	2500 3175 2650 3175
+Wire Wire Line
+	2500 3025 2650 3025
+Wire Wire Line
+	2500 2925 2650 2925
+Wire Wire Line
+	2500 2825 2650 2825
+Wire Wire Line
+	2500 2725 2650 2725
+Wire Wire Line
+	2500 2625 2650 2625
+Wire Wire Line
+	2500 2525 2650 2525
+Wire Wire Line
+	2500 2425 2650 2425
+Wire Wire Line
+	2500 2325 2650 2325
+Wire Wire Line
+	2500 2225 2650 2225
+Wire Wire Line
+	2500 2125 2650 2125
+Wire Wire Line
+	2500 2025 2650 2025
+Wire Wire Line
+	2500 1925 2650 1925
+Wire Wire Line
+	2500 1825 2650 1825
+Wire Wire Line
+	2500 1725 2650 1725
+Wire Wire Line
+	2500 1625 2650 1625
+Wire Wire Line
+	2500 1525 2650 1525
+Wire Wire Line
+	10725 3800 10375 3800
+Wire Wire Line
+	10725 4000 10475 4000
+Wire Wire Line
+	10725 4100 10525 4100
+Wire Wire Line
+	10725 4200 10575 4200
+Wire Wire Line
+	10575 4200 10575 1275
+Wire Wire Line
+	10575 1275 10825 1275
+Wire Wire Line
+	9800 1275 10575 1275
+Connection ~ 10575 1275
+Wire Wire Line
+	10525 4100 10525 1375
+Wire Wire Line
+	10525 1375 10825 1375
+Wire Wire Line
+	9800 1375 10525 1375
+Connection ~ 10525 1375
+Wire Wire Line
+	10475 4000 10475 1475
+Wire Wire Line
+	10475 1475 10825 1475
+Wire Wire Line
+	9800 1475 10475 1475
+Connection ~ 10475 1475
+Wire Wire Line
+	10375 3800 10375 1675
+Wire Wire Line
+	10375 1675 10825 1675
+Wire Wire Line
+	9800 1675 10375 1675
+Connection ~ 10375 1675
+$Comp
+L 6502-Watch-rescue:+3V3 #PWR043
+U 1 1 595411D4
+P 10675 2975
+F 0 "#PWR043" H 10675 2825 50  0001 C CNN
+F 1 "+3V3" H 10675 3115 50  0000 C CNN
+F 2 "" H 10675 2975 50  0001 C CNN
+F 3 "" H 10675 2975 50  0001 C CNN
+	1    10675 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:65c02PLCC44 U1
+U 1 1 595233F4
+P 1750 2775
+F 0 "U1" H 1250 4100 59  0000 C BNN
+F 1 "65c02PLCC44" H 2000 1550 59  0000 C TNN
+F 2 "Housings_LCC:PLCC-44" H 1750 5125 60  0001 C CNN
+F 3 "" H 1750 2775 60  0001 C CNN
+	1    1750 2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:+3V3 #PWR042
+U 1 1 5951BAB7
+P 925 1825
+F 0 "#PWR042" H 925 1675 50  0001 C CNN
+F 1 "+3V3" H 925 1965 50  0000 C CNN
+F 2 "" H 925 1825 50  0001 C CNN
+F 3 "" H 925 1825 50  0001 C CNN
+	1    925  1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:+3V3 #PWR041
+U 1 1 5951BA61
+P 800 1975
+F 0 "#PWR041" H 800 1825 50  0001 C CNN
+F 1 "+3V3" H 800 2115 50  0000 C CNN
+F 2 "" H 800 1975 50  0001 C CNN
+F 3 "" H 800 1975 50  0001 C CNN
+	1    800  1975
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:GND #PWR040
+U 1 1 594F9E2E
+P 10825 3175
+F 0 "#PWR040" H 10825 2925 50  0001 C CNN
+F 1 "GND" H 10825 3025 50  0000 C CNN
+F 2 "" H 10825 3175 50  0001 C CNN
+F 3 "" H 10825 3175 50  0001 C CNN
+	1    10825 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:GND #PWR039
+U 1 1 594F822C
+P 5800 3125
+F 0 "#PWR039" H 5800 2875 50  0001 C CNN
+F 1 "GND" H 5800 2975 50  0000 C CNN
+F 2 "" H 5800 3125 50  0001 C CNN
+F 3 "" H 5800 3125 50  0001 C CNN
+	1    5800 3125
+	1    0    0    -1  
+$EndComp
+Text GLabel 2475 5200 2    39   Input ~ 0
+I/O
+NoConn ~ 2475 5100
+$Comp
+L 6502-Watch-rescue:Crystal_Small Y1
+U 1 1 59513293
+P 10225 6150
+F 0 "Y1" H 10225 6250 50  0000 C CNN
+F 1 "RTC" H 10225 6325 50  0000 C CNN
+F 2 "Crystals:Crystal_DS26_d2.0mm_l6.0mm_Horizontal" H 10225 6150 50  0001 C CNN
+F 3 "" H 10225 6150 50  0001 C CNN
+	1    10225 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L 6502-Watch-rescue:+3V3 #PWR038
+U 1 1 59512909
+P 9225 5850
+F 0 "#PWR038" H 9225 5700 50  0001 C CNN
+F 1 "+3V3" H 9225 5990 50  0000 C CNN
+F 2 "" H 9225 5850 50  0001 C CNN
+F 3 "" H 9225 5850 50  0001 C CNN
+	1    9225 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:GND #PWR037
+U 1 1 59512735
+P 9225 6050
+F 0 "#PWR037" H 9225 5800 50  0001 C CNN
+F 1 "GND" H 9225 5900 50  0000 C CNN
+F 2 "" H 9225 6050 50  0001 C CNN
+F 3 "" H 9225 6050 50  0001 C CNN
+	1    9225 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:DS1302 U6
+U 1 1 595125D6
+P 9675 5950
+F 0 "U6" H 9475 6250 60  0000 C CNN
+F 1 "DS1302" H 9675 5650 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 9675 6650 60  0001 C CNN
+F 3 "" H 9675 5650 60  0001 C CNN
+	1    9675 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:+3V3 #PWR036
+U 1 1 5950A2E5
+P 8300 2975
+F 0 "#PWR036" H 8300 2825 50  0001 C CNN
+F 1 "+3V3" H 8300 3115 50  0000 C CNN
+F 2 "" H 8300 2975 50  0001 C CNN
+F 3 "" H 8300 2975 50  0001 C CNN
+	1    8300 2975
+	1    0    0    -1  
+$EndComp
+Text GLabel 8600 2775 0    39   Input ~ 0
+R/W
+Text GLabel 8600 3175 0    39   Input ~ 0
+phi2
+Text GLabel 1000 3025 0    39   Input ~ 0
+phi2
+Text GLabel 1000 2825 0    39   Input ~ 0
+CLK
+Text GLabel 1000 2725 0    39   Input ~ 0
+R/W
+Text GLabel 1000 2375 0    39   Input ~ 0
+RST
+Text GLabel 8600 3275 0    39   Input ~ 0
+RST
+Text GLabel 8600 2875 0    39   Input ~ 0
+I/O
+NoConn ~ 9800 3575
+NoConn ~ 9800 3475
+NoConn ~ 9800 3275
+NoConn ~ 9800 3175
+NoConn ~ 8600 2675
+Text Label 8250 1575 0    60   ~ 0
+A3
+Text Label 8250 1475 0    60   ~ 0
+A2
+Text Label 8250 1375 0    60   ~ 0
+A1
+Text Label 8250 1275 0    60   ~ 0
+A0
+Entry Wire Line
+	8150 1475 8250 1575
+Entry Wire Line
+	8150 1375 8250 1475
+Entry Wire Line
+	8150 1275 8250 1375
+Entry Wire Line
+	8150 1175 8250 1275
+$Comp
+L 6502-Watch-rescue:65c22PLCC44 U4
+U 1 1 594FE9B0
+P 9200 2475
+F 0 "U4" H 8850 3775 59  0000 C BNN
+F 1 "65c22PLCC44" H 9200 1250 59  0000 C TNN
+F 2 "Housings_LCC:PLCC-44" H 9200 4825 60  0001 C CNN
+F 3 "" H 9200 2475 60  0001 C CNN
+	1    9200 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:GND #PWR035
+U 1 1 594C2AF7
+P 8600 3575
+F 0 "#PWR035" H 8600 3325 50  0001 C CNN
+F 1 "GND" H 8600 3425 50  0000 C CNN
+F 2 "" H 8600 3575 50  0001 C CNN
+F 3 "" H 8600 3575 50  0001 C CNN
+	1    8600 3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:+3V3 #PWR034
+U 1 1 594F63E2
+P 5800 3525
+F 0 "#PWR034" H 5800 3375 50  0001 C CNN
+F 1 "+3V3" H 5800 3665 50  0000 C CNN
+F 2 "" H 5800 3525 50  0001 C CNN
+F 3 "" H 5800 3525 50  0001 C CNN
+	1    5800 3525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3025 5800 3125
+Wire Wire Line
+	5800 2925 5800 3025
+Connection ~ 5800 3025
+$Comp
+L 6502-Watch-rescue:SST39SF010 U3
+U 1 1 594F56AF
+P 6400 2725
+F 0 "U3" H 6050 4025 50  0000 C CNN
+F 1 "SST39SF010" H 6400 1525 50  0000 C CNN
+F 2 "Custom:PLCC-32_THT-Socket_Fixed" H 6400 3025 50  0001 C CNN
+F 3 "" H 6400 3025 50  0001 C CNN
+	1    6400 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:+3V3 #PWR033
+U 1 1 594E461E
+P 8675 4200
+F 0 "#PWR033" H 8675 4050 50  0001 C CNN
+F 1 "+3V3" H 8675 4340 50  0000 C CNN
+F 2 "" H 8675 4200 50  0001 C CNN
+F 3 "" H 8675 4200 50  0001 C CNN
+	1    8675 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:+3V3 #PWR032
+U 1 1 594E3C62
+P 1875 4350
+F 0 "#PWR032" H 1875 4200 50  0001 C CNN
+F 1 "+3V3" H 1875 4490 50  0000 C CNN
+F 2 "" H 1875 4350 50  0001 C CNN
+F 3 "" H 1875 4350 50  0001 C CNN
+	1    1875 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:+3V3 #PWR031
+U 1 1 594E1C9E
+P 675 1425
+F 0 "#PWR031" H 675 1275 50  0001 C CNN
+F 1 "+3V3" H 675 1565 50  0000 C CNN
+F 2 "" H 675 1425 50  0001 C CNN
+F 3 "" H 675 1425 50  0001 C CNN
+	1    675  1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:+3V3 #PWR030
+U 1 1 594E1AD7
+P 650 2275
+F 0 "#PWR030" H 650 2125 50  0001 C CNN
+F 1 "+3V3" H 650 2415 50  0000 C CNN
+F 2 "" H 650 2275 50  0001 C CNN
+F 3 "" H 650 2275 50  0001 C CNN
+	1    650  2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:+3V3 #PWR029
+U 1 1 594E18EE
+P 800 3275
+F 0 "#PWR029" H 800 3125 50  0001 C CNN
+F 1 "+3V3" H 800 3415 50  0000 C CNN
+F 2 "" H 800 3275 50  0001 C CNN
+F 3 "" H 800 3275 50  0001 C CNN
+	1    800  3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:+3V3 #PWR028
+U 1 1 594E093D
+P 4925 2875
+F 0 "#PWR028" H 4925 2725 50  0001 C CNN
+F 1 "+3V3" H 4925 3015 50  0000 C CNN
+F 2 "" H 4925 2875 50  0001 C CNN
+F 3 "" H 4925 2875 50  0001 C CNN
+	1    4925 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:+3V3 #PWR027
+U 1 1 594E0730
+P 7150 3725
+F 0 "#PWR027" H 7150 3575 50  0001 C CNN
+F 1 "+3V3" H 7150 3865 50  0000 C CNN
+F 2 "" H 7150 3725 50  0001 C CNN
+F 3 "" H 7150 3725 50  0001 C CNN
+	1    7150 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:+3V3 #PWR026
+U 1 1 594E034F
+P 8325 3475
+F 0 "#PWR026" H 8325 3325 50  0001 C CNN
+F 1 "+3V3" H 8325 3615 50  0000 C CNN
+F 2 "" H 8325 3475 50  0001 C CNN
+F 3 "" H 8325 3475 50  0001 C CNN
+	1    8325 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:+3V3 #PWR025
+U 1 1 594DE315
+P 6475 6750
+F 0 "#PWR025" H 6475 6600 50  0001 C CNN
+F 1 "+3V3" H 6475 6890 50  0000 C CNN
+F 2 "" H 6475 6750 50  0001 C CNN
+F 3 "" H 6475 6750 50  0001 C CNN
+	1    6475 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:+3V3 #PWR024
+U 1 1 594DDE5C
+P 1275 5200
+F 0 "#PWR024" H 1275 5050 50  0001 C CNN
+F 1 "+3V3" H 1275 5340 50  0000 C CNN
+F 2 "" H 1275 5200 50  0001 C CNN
+F 3 "" H 1275 5200 50  0001 C CNN
+	1    1275 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:GND #PWR023
+U 1 1 594E37E0
+P 1500 7450
+F 0 "#PWR023" H 1500 7200 50  0001 C CNN
+F 1 "GND" H 1500 7300 50  0000 C CNN
+F 2 "" H 1500 7450 50  0001 C CNN
+F 3 "" H 1500 7450 50  0001 C CNN
+	1    1500 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:R_Small R8
+U 1 1 594E374F
+P 1500 7350
+F 0 "R8" H 1530 7370 50  0000 L CNN
+F 1 "10k" H 1530 7310 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 1500 7350 50  0001 C CNN
+F 3 "" H 1500 7350 50  0001 C CNN
+	1    1500 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:LED_ALT D1
+U 1 1 594E248B
+P 1350 7250
+F 0 "D1" H 1350 7350 50  0000 C CNN
+F 1 "CH" H 1350 7150 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 1350 7250 50  0001 C CNN
+F 3 "" H 1350 7250 50  0001 C CNN
+	1    1350 7250
+	-1   0    0    1   
+$EndComp
+$Comp
+L 6502-Watch-rescue:GND #PWR022
+U 1 1 594E1D29
+P 2000 7075
+F 0 "#PWR022" H 2000 6825 50  0001 C CNN
+F 1 "GND" H 2000 6925 50  0000 C CNN
+F 2 "" H 2000 7075 50  0001 C CNN
+F 3 "" H 2000 7075 50  0001 C CNN
+	1    2000 7075
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:R_Small R7
+U 1 1 594E0511
+P 2000 6975
+F 0 "R7" H 2030 6995 50  0000 L CNN
+F 1 "2k2" H 2030 6935 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 2000 6975 50  0001 C CNN
+F 3 "" H 2000 6975 50  0001 C CNN
+	1    2000 6975
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:Jumper JP1
+U 1 1 594DFA92
+P 1650 6425
+F 0 "JP1" H 1650 6575 50  0000 C CNN
+F 1 "BAT" H 1650 6345 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 1650 6425 50  0001 C CNN
+F 3 "" H 1650 6425 50  0001 C CNN
+	1    1650 6425
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:GND #PWR021
+U 1 1 594DE556
+P 1100 6775
+F 0 "#PWR021" H 1100 6525 50  0001 C CNN
+F 1 "GND" H 1100 6625 50  0000 C CNN
+F 2 "" H 1100 6775 50  0001 C CNN
+F 3 "" H 1100 6775 50  0001 C CNN
+	1    1100 6775
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:GND #PWR020
+U 1 1 594DDB42
+P 2450 6775
+F 0 "#PWR020" H 2450 6525 50  0001 C CNN
+F 1 "GND" H 2450 6625 50  0000 C CNN
+F 2 "" H 2450 6775 50  0001 C CNN
+F 3 "" H 2450 6775 50  0001 C CNN
+	1    2450 6775
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:CONN_01X02 J4
+U 1 1 594DF08F
+P 2650 6725
+F 0 "J4" H 2650 6875 50  0000 C CNN
+F 1 "BATTERY" V 2750 6725 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2650 6725 50  0001 C CNN
+F 3 "" H 2650 6725 50  0001 C CNN
+	1    2650 6725
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:MCP73831 U7
+U 1 1 594DCBDE
+P 1600 6775
+F 0 "U7" H 1350 6975 60  0000 C CNN
+F 1 "MCP73831" H 1600 6575 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5_HandSoldering" H 1450 7275 60  0001 C CNN
+F 3 "" H 1450 7275 60  0001 C CNN
+	1    1600 6775
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:R_Small R6
+U 1 1 594DD330
+P 800 2075
+F 0 "R6" H 830 2095 50  0000 L CNN
+F 1 "10k" H 830 2035 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 800 2075 50  0001 C CNN
+F 3 "" H 800 2075 50  0001 C CNN
+	1    800  2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 4400 8900 4400
+Wire Wire Line
+	8600 4400 8675 4400
+Connection ~ 8675 4400
+$Comp
+L 6502-Watch-rescue:R_Small R4
+U 1 1 594D80A8
+P 8675 4300
+F 0 "R4" H 8705 4320 50  0000 L CNN
+F 1 "10k" H 8705 4260 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 8675 4300 50  0001 C CNN
+F 3 "" H 8675 4300 50  0001 C CNN
+	1    8675 4300
+	1    0    0    -1  
+$EndComp
+Text Label 2850 1525 0    39   ~ 0
+A15
+Text GLabel 3000 1525 2    39   Input ~ 0
+A15
+Entry Wire Line
+	2750 1825 2850 1725
+Entry Wire Line
+	2750 1625 2850 1525
+$Comp
+L 6502-Watch-rescue:GND #PWR019
+U 1 1 594DBB93
+P 10625 4300
+F 0 "#PWR019" H 10625 4050 50  0001 C CNN
+F 1 "GND" H 10625 4150 50  0000 C CNN
+F 2 "" H 10625 4300 50  0001 C CNN
+F 3 "" H 10625 4300 50  0001 C CNN
+	1    10625 4300
+	1    0    0    -1  
+$EndComp
+Connection ~ 675  1625
+$Comp
+L 6502-Watch-rescue:R_Small R5
+U 1 1 594D9837
+P 675 1525
+F 0 "R5" H 705 1545 50  0000 L CNN
+F 1 "10k" H 705 1485 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 675 1525 50  0001 C CNN
+F 3 "" H 675 1525 50  0001 C CNN
+	1    675  1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:GND #PWR018
+U 1 1 594D6383
+P 8200 4400
+F 0 "#PWR018" H 8200 4150 50  0001 C CNN
+F 1 "GND" H 8200 4250 50  0000 C CNN
+F 2 "" H 8200 4400 50  0001 C CNN
+F 3 "" H 8200 4400 50  0001 C CNN
+	1    8200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:SPST B4
+U 1 1 594D62DA
+P 8400 4350
+F 0 "B4" H 8400 4550 60  0000 C CNN
+F 1 "SPST" H 8400 4450 60  0000 C CNN
+F 2 "Custom:SW_SPST_B3S-1000(4P)" H 8400 4350 60  0001 C CNN
+F 3 "" H 8400 4350 60  0001 C CNN
+	1    8400 4350
+	1    0    0    -1  
+$EndComp
+Text GLabel 8900 4400 2    39   Input ~ 0
+NMI
+Text GLabel 1000 1525 0    39   Input ~ 0
+NMI
+$Comp
+L 6502-Watch-rescue:GND #PWR017
+U 1 1 594D2E3E
+P 9400 5075
+F 0 "#PWR017" H 9400 4825 50  0001 C CNN
+F 1 "GND" H 9400 4925 50  0000 C CNN
+F 2 "" H 9400 5075 50  0001 C CNN
+F 3 "" H 9400 5075 50  0001 C CNN
+	1    9400 5075
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:GND #PWR016
+U 1 1 594D2DF6
+P 9400 4625
+F 0 "#PWR016" H 9400 4375 50  0001 C CNN
+F 1 "GND" H 9400 4475 50  0000 C CNN
+F 2 "" H 9400 4625 50  0001 C CNN
+F 3 "" H 9400 4625 50  0001 C CNN
+	1    9400 4625
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:GND #PWR015
+U 1 1 594D2DAE
+P 9400 4175
+F 0 "#PWR015" H 9400 3925 50  0001 C CNN
+F 1 "GND" H 9400 4025 50  0000 C CNN
+F 2 "" H 9400 4175 50  0001 C CNN
+F 3 "" H 9400 4175 50  0001 C CNN
+	1    9400 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:SPST B1
+U 1 1 594D2C25
+P 9600 4125
+F 0 "B1" H 9600 4325 60  0000 C CNN
+F 1 "UP" H 9600 4225 60  0000 C CNN
+F 2 "Custom:SW_SPST_B3S-1000(4P)" H 9600 4125 60  0001 C CNN
+F 3 "" H 9600 4125 60  0001 C CNN
+	1    9600 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:SPST B2
+U 1 1 594D2B78
+P 9600 4575
+F 0 "B2" H 9600 4775 60  0000 C CNN
+F 1 "SELECT" H 9600 4675 60  0000 C CNN
+F 2 "Custom:SW_SPST_B3S-1000(4P)" H 9600 4575 60  0001 C CNN
+F 3 "" H 9600 4575 60  0001 C CNN
+	1    9600 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:SPST B3
+U 1 1 594D2A99
+P 9600 5025
+F 0 "B3" H 9600 5225 60  0000 C CNN
+F 1 "DOWN" H 9600 5125 60  0000 C CNN
+F 2 "Custom:SW_SPST_B3S-1000(4P)" H 9600 5025 60  0001 C CNN
+F 3 "" H 9600 5025 60  0001 C CNN
+	1    9600 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:+3V3 #PWR014
+U 1 1 594C2E8F
+P 10725 3600
+F 0 "#PWR014" H 10725 3450 50  0001 C CNN
+F 1 "+3V3" H 10725 3740 50  0000 C CNN
+F 2 "" H 10725 3600 50  0001 C CNN
+F 3 "" H 10725 3600 50  0001 C CNN
+	1    10725 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:CONN_01X08 J3
+U 1 1 594C2DFE
+P 10925 3950
+F 0 "J3" H 10925 4400 50  0000 C CNN
+F 1 "LCD" V 11025 3950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 10925 3950 50  0001 C CNN
+F 3 "" H 10925 3950 50  0001 C CNN
+	1    10925 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:+3V3 #PWR013
+U 1 1 594C6860
+P 3000 6050
+F 0 "#PWR013" H 3000 5900 50  0001 C CNN
+F 1 "+3V3" H 3000 6190 50  0000 C CNN
+F 2 "" H 3000 6050 50  0001 C CNN
+F 3 "" H 3000 6050 50  0001 C CNN
+	1    3000 6050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10825 2975
+$Comp
+L 6502-Watch-rescue:CONN_01X20 J2
+U 1 1 594E7CF8
+P 11025 2225
+F 0 "J2" H 11025 3275 50  0000 C CNN
+F 1 "Keyboard" V 11125 2225 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x20_Pitch2.54mm" H 11025 2225 50  0001 C CNN
+F 3 "" H 11025 2225 50  0001 C CNN
+	1    11025 2225
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10825 3075
+$Comp
+L 6502-Watch-rescue:GND #PWR012
+U 1 1 594E71A8
+P 7150 3925
+F 0 "#PWR012" H 7150 3675 50  0001 C CNN
+F 1 "GND" H 7150 3775 50  0000 C CNN
+F 2 "" H 7150 3925 50  0001 C CNN
+F 3 "" H 7150 3925 50  0001 C CNN
+	1    7150 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:C_Small C10
+U 1 1 594E7157
+P 7150 3825
+F 0 "C10" H 7160 3895 50  0000 L CNN
+F 1 "100nf" H 7160 3745 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210_HandSoldering" H 7150 3825 50  0001 C CNN
+F 3 "" H 7150 3825 50  0001 C CNN
+	1    7150 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:GND #PWR011
+U 1 1 594E2BDF
+P 4925 3075
+F 0 "#PWR011" H 4925 2825 50  0001 C CNN
+F 1 "GND" H 5050 3000 50  0000 C CNN
+F 2 "" H 4925 3075 50  0001 C CNN
+F 3 "" H 4925 3075 50  0001 C CNN
+	1    4925 3075
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:C_Small C7
+U 1 1 594E2B84
+P 4925 2975
+F 0 "C7" H 5000 2975 50  0000 L CNN
+F 1 "100nf" H 4950 3050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210_HandSoldering" H 4925 2975 50  0001 C CNN
+F 3 "" H 4925 2975 50  0001 C CNN
+	1    4925 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:GND #PWR010
+U 1 1 594E1AA7
+P 800 3525
+F 0 "#PWR010" H 800 3275 50  0001 C CNN
+F 1 "GND" H 800 3375 50  0000 C CNN
+F 2 "" H 800 3525 50  0001 C CNN
+F 3 "" H 800 3525 50  0001 C CNN
+	1    800  3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:C_Small C6
+U 1 1 594E11E7
+P 800 3425
+F 0 "C6" H 625 3425 50  0000 L CNN
+F 1 "100nf" H 550 3500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210_HandSoldering" H 800 3425 50  0001 C CNN
+F 3 "" H 800 3425 50  0001 C CNN
+	1    800  3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:GND #PWR09
+U 1 1 594E01B2
+P 2275 4425
+F 0 "#PWR09" H 2275 4175 50  0001 C CNN
+F 1 "GND" H 2275 4275 50  0000 C CNN
+F 2 "" H 2275 4425 50  0001 C CNN
+F 3 "" H 2275 4425 50  0001 C CNN
+	1    2275 4425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1875 4425 1875 4600
+Wire Wire Line
+	1875 4350 1875 4425
+Connection ~ 1875 4425
+$Comp
+L 6502-Watch-rescue:C_Small C5
+U 1 1 594DF210
+P 1975 4425
+F 0 "C5" V 1925 4300 50  0000 L CNN
+F 1 "100nf" V 2025 4175 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1210_HandSoldering" H 1975 4425 50  0001 C CNN
+F 3 "" H 1975 4425 50  0001 C CNN
+	1    1975 4425
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 6502-Watch-rescue:GND #PWR08
+U 1 1 594D9059
+P 4650 2975
+F 0 "#PWR08" H 4650 2725 50  0001 C CNN
+F 1 "GND" H 4650 2825 50  0000 C CNN
+F 2 "" H 4650 2975 50  0001 C CNN
+F 3 "" H 4650 2975 50  0001 C CNN
+	1    4650 2975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 6050 3000 6050
+Wire Wire Line
+	2800 6050 2850 6050
+Connection ~ 2850 6050
+$Comp
+L 6502-Watch-rescue:CP C2
+U 1 1 594D5D11
+P 2850 6200
+F 0 "C2" H 2875 6300 50  0000 L CNN
+F 1 "22uf" H 2650 6100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 2888 6050 50  0001 C CNN
+F 3 "" H 2850 6200 50  0001 C CNN
+	1    2850 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 6050 2200 6050
+Wire Wire Line
+	2000 6050 2150 6050
+Connection ~ 2150 6050
+$Comp
+L 6502-Watch-rescue:CP C1
+U 1 1 594D57C6
+P 2150 6200
+F 0 "C1" H 2175 6300 50  0000 L CNN
+F 1 "10uf" H 2175 6100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 2188 6050 50  0001 C CNN
+F 3 "" H 2150 6200 50  0001 C CNN
+	1    2150 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 6350 2850 6350
+Wire Wire Line
+	2150 6350 2500 6350
+Connection ~ 2500 6350
+$Comp
+L 6502-Watch-rescue:GND #PWR07
+U 1 1 594D5654
+P 2500 6350
+F 0 "#PWR07" H 2500 6100 50  0001 C CNN
+F 1 "GND" H 2500 6200 50  0000 C CNN
+F 2 "" H 2500 6350 50  0001 C CNN
+F 3 "" H 2500 6350 50  0001 C CNN
+	1    2500 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:GND #PWR06
+U 1 1 594D5308
+P 750 6050
+F 0 "#PWR06" H 750 5800 50  0001 C CNN
+F 1 "GND" H 750 5900 50  0000 C CNN
+F 2 "" H 750 6050 50  0001 C CNN
+F 3 "" H 750 6050 50  0001 C CNN
+	1    750  6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:AP1117-33-RESCUE-6502_Watch U9
+U 1 1 594D4AE3
+P 2500 6050
+F 0 "U9" H 2350 6175 50  0000 C CNN
+F 1 "3.3V" H 2500 6175 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2" H 2500 6250 50  0001 C CNN
+F 3 "" H 2600 5800 50  0001 C CNN
+	1    2500 6050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1150 6350
+NoConn ~ 1050 6350
+NoConn ~ 950  6350
+NoConn ~ 750  5950
+$Comp
+L 6502-Watch-rescue:USB_OTG J1
+U 1 1 594D1A36
+P 1150 6050
+F 0 "J1" V 900 5750 50  0000 L CNN
+F 1 "USB" V 900 6200 50  0000 L CNN
+F 2 "Connectors:USB_Mini-B" H 1300 6000 50  0001 C CNN
+F 3 "" H 1300 6000 50  0001 C CNN
+	1    1150 6050
+	0    1    1    0   
+$EndComp
+NoConn ~ 1000 2075
+Entry Wire Line
+	2750 1725 2850 1625
+Text GLabel 675  1700 0    39   Input ~ 0
+IRQ
+$Comp
+L 6502-Watch-rescue:GND #PWR05
+U 1 1 594C9A8E
+P 1875 5500
+F 0 "#PWR05" H 1875 5250 50  0001 C CNN
+F 1 "GND" H 1875 5350 50  0000 C CNN
+F 2 "" H 1875 5500 50  0001 C CNN
+F 3 "" H 1875 5500 50  0001 C CNN
+	1    1875 5500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3775 7250
+NoConn ~ 3775 6850
+NoConn ~ 3775 7050
+NoConn ~ 3775 6950
+NoConn ~ 1000 1875
+NoConn ~ 1000 2625
+NoConn ~ 1000 2925
+NoConn ~ 2475 4700
+NoConn ~ 2475 4800
+NoConn ~ 2475 4900
+NoConn ~ 2475 5000
+Text GLabel 3775 7150 0    39   Input ~ 0
+CLK
+Text GLabel 3775 6750 0    39   Input ~ 0
+RST
+$Comp
+L 6502-Watch-rescue:GND #PWR04
+U 1 1 594C78AA
+P 6475 7250
+F 0 "#PWR04" H 6475 7000 50  0001 C CNN
+F 1 "GND" H 6475 7100 50  0000 C CNN
+F 2 "" H 6475 7250 50  0001 C CNN
+F 3 "" H 6475 7250 50  0001 C CNN
+	1    6475 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:ATTINY85-20SU U8
+U 1 1 594C6E5D
+P 5125 7000
+F 0 "U8" H 3975 7400 50  0000 C CNN
+F 1 "ATTINY85" H 6025 6600 50  0000 C CNN
+F 2 "SMD_Packages:SOIC-8-N" H 6075 7000 50  0001 C CIN
+F 3 "" H 5125 7000 50  0001 C CNN
+	1    5125 7000
+	1    0    0    -1  
+$EndComp
+Text Label 2950 1725 2    39   ~ 0
+A13
+Text Label 2950 1625 2    39   ~ 0
+A14
+Text GLabel 3000 1725 2    39   Input ~ 0
+A13
+Text GLabel 3000 1625 2    39   Input ~ 0
+A14
+Entry Bus Bus
+	8050 925  8150 1025
+Entry Bus Bus
+	3400 1025 3500 925 
+Entry Bus Bus
+	8050 3325 8150 3225
+Text Label 8250 2475 0    60   ~ 0
+D7
+Text Label 8250 2375 0    60   ~ 0
+D6
+Text Label 8250 2275 0    60   ~ 0
+D5
+Text Label 8250 2175 0    60   ~ 0
+D4
+Text Label 8250 2075 0    60   ~ 0
+D3
+Text Label 8250 1975 0    60   ~ 0
+D2
+Text Label 8250 1875 0    60   ~ 0
+D1
+Text Label 8250 1775 0    60   ~ 0
+D0
+Entry Wire Line
+	8150 2375 8250 2475
+Entry Wire Line
+	8150 2275 8250 2375
+Entry Wire Line
+	8150 2175 8250 2275
+Entry Wire Line
+	8150 2075 8250 2175
+Entry Wire Line
+	8150 1975 8250 2075
+Entry Wire Line
+	8150 1875 8250 1975
+Entry Wire Line
+	8150 1775 8250 1875
+Entry Wire Line
+	8150 1675 8250 1775
+Text GLabel 4650 2375 2    39   Input ~ 0
+A15
+Text GLabel 4650 2625 2    39   Input ~ 0
+A15
+Text GLabel 4650 2475 2    39   Input ~ 0
+R/W
+Text GLabel 5700 3775 0    47   Input ~ 0
+ROM
+Text GLabel 1275 4900 0    39   Input ~ 0
+A15
+Text GLabel 1275 4800 0    39   Input ~ 0
+A14
+Text GLabel 1275 4700 0    39   Input ~ 0
+A13
+Text GLabel 5375 5300 2    39   Input ~ 0
+ROM
+$Comp
+L 6502-Watch-rescue:GND #PWR03
+U 1 1 594BA3C9
+P 1000 3575
+F 0 "#PWR03" H 1000 3325 50  0001 C CNN
+F 1 "GND" H 1000 3425 50  0000 C CNN
+F 2 "" H 1000 3575 50  0001 C CNN
+F 3 "" H 1000 3575 50  0001 C CNN
+	1    1000 3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:GND #PWR02
+U 1 1 594BA23E
+P 7000 3825
+F 0 "#PWR02" H 7000 3575 50  0001 C CNN
+F 1 "GND" H 7000 3675 50  0000 C CNN
+F 2 "" H 7000 3825 50  0001 C CNN
+F 3 "" H 7000 3825 50  0001 C CNN
+	1    7000 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:GND #PWR01
+U 1 1 594B9906
+P 1275 5400
+F 0 "#PWR01" H 1275 5150 50  0001 C CNN
+F 1 "GND" H 1275 5250 50  0000 C CNN
+F 2 "" H 1275 5400 50  0001 C CNN
+F 3 "" H 1275 5400 50  0001 C CNN
+	1    1275 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6502-Watch-rescue:74LS138 U5
+U 1 1 594B94C9
+P 1875 5050
+F 0 "U5" H 1625 5550 50  0000 C CNN
+F 1 "." H 2125 5550 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 1875 5050 50  0001 C CNN
+F 3 "" H 1875 5050 50  0001 C CNN
+	1    1875 5050
+	1    0    0    -1  
+$EndComp
+Entry Bus Bus
+	3400 3125 3500 3225
+Entry Bus Bus
+	2750 3125 2850 3225
+Entry Bus Bus
+	7300 1125 7400 1225
+Entry Bus Bus
+	4900 1225 5000 1125
+Entry Bus Bus
+	5300 3225 5400 3125
+Entry Bus Bus
+	7300 4125 7400 4025
+Entry Bus Bus
+	2750 4025 2850 4125
+Entry Wire Line
+	2650 3875 2750 3975
+Entry Wire Line
+	2650 3775 2750 3875
+Entry Wire Line
+	2650 3675 2750 3775
+Entry Wire Line
+	2650 3575 2750 3675
+Entry Wire Line
+	2650 3475 2750 3575
+Entry Wire Line
+	2650 3375 2750 3475
+Entry Wire Line
+	2650 3275 2750 3375
+Entry Wire Line
+	2650 3175 2750 3275
+Text Label 7000 2225 0    60   ~ 0
+D7
+Text Label 7000 2125 0    60   ~ 0
+D6
+Text Label 7000 2025 0    60   ~ 0
+D5
+Text Label 7000 1925 0    60   ~ 0
+D4
+Text Label 7000 1825 0    60   ~ 0
+D3
+Text Label 7000 1725 0    60   ~ 0
+D2
+Text Label 7000 1625 0    60   ~ 0
+D1
+Text Label 7000 1525 0    60   ~ 0
+D0
+Text Label 5500 2825 0    60   ~ 0
+A13
+Text Label 5500 2725 0    60   ~ 0
+A12
+Text Label 5500 2625 0    60   ~ 0
+A11
+Text Label 5500 2525 0    60   ~ 0
+A10
+Text Label 5500 2425 0    60   ~ 0
+A9
+Text Label 5500 2325 0    60   ~ 0
+A8
+Text Label 5500 2225 0    60   ~ 0
+A7
+Text Label 5500 2125 0    60   ~ 0
+A6
+Text Label 5500 2025 0    60   ~ 0
+A5
+Text Label 5500 1925 0    60   ~ 0
+A4
+Text Label 5500 1825 0    60   ~ 0
+A3
+Text Label 5500 1725 0    60   ~ 0
+A2
+Text Label 5500 1625 0    60   ~ 0
+A1
+Text Label 5500 1525 0    60   ~ 0
+A0
+Text Label 4650 2225 0    60   ~ 0
+D7
+Text Label 4650 2125 0    60   ~ 0
+D6
+Text Label 4650 2025 0    60   ~ 0
+D5
+Text Label 4650 1925 0    60   ~ 0
+D4
+Text Label 4650 1825 0    60   ~ 0
+D3
+Text Label 4650 1725 0    60   ~ 0
+D2
+Text Label 4650 1625 0    60   ~ 0
+D1
+Text Label 4650 1525 0    60   ~ 0
+D0
+Text Label 3500 2925 0    60   ~ 0
+A14
+Text Label 3500 2825 0    60   ~ 0
+A13
+Text Label 3500 2725 0    60   ~ 0
+A12
+Text Label 3500 2625 0    60   ~ 0
+A11
+Text Label 3500 2525 0    60   ~ 0
+A10
+Text Label 3500 2425 0    60   ~ 0
+A9
+Text Label 3500 2325 0    60   ~ 0
+A8
+Text Label 3500 2225 0    60   ~ 0
+A7
+Text Label 3500 2125 0    60   ~ 0
+A6
+Text Label 3500 2025 0    60   ~ 0
+A5
+Text Label 3500 1925 0    60   ~ 0
+A4
+Text Label 3500 1825 0    60   ~ 0
+A3
+Text Label 3500 1725 0    60   ~ 0
+A2
+Text Label 3500 1625 0    60   ~ 0
+A1
+Text Label 3500 1525 0    60   ~ 0
+A0
+Text Label 2500 3875 0    60   ~ 0
+D7
+Text Label 2500 3775 0    60   ~ 0
+D6
+Text Label 2500 3675 0    60   ~ 0
+D5
+Text Label 2500 3575 0    60   ~ 0
+D4
+Text Label 2500 3475 0    60   ~ 0
+D3
+Text Label 2500 3375 0    60   ~ 0
+D2
+Text Label 2500 3275 0    60   ~ 0
+D1
+Text Label 2500 3175 0    60   ~ 0
+D0
+Text Label 2500 3025 0    60   ~ 0
+A15
+Text Label 2500 2925 0    60   ~ 0
+A14
+Text Label 2500 2825 0    60   ~ 0
+A13
+Text Label 2500 2725 0    60   ~ 0
+A12
+Text Label 2500 2625 0    60   ~ 0
+A11
+Text Label 2500 2525 0    60   ~ 0
+A10
+Text Label 2500 2425 0    60   ~ 0
+A9
+Text Label 2500 2325 0    60   ~ 0
+A8
+Text Label 2500 2225 0    60   ~ 0
+A7
+Text Label 2500 2125 0    60   ~ 0
+A6
+Text Label 2500 2025 0    60   ~ 0
+A5
+Text Label 2500 1925 0    60   ~ 0
+A4
+Text Label 2500 1825 0    60   ~ 0
+A3
+Text Label 2500 1725 0    60   ~ 0
+A2
+Text Label 2500 1625 0    60   ~ 0
+A1
+Text Label 2500 1525 0    60   ~ 0
+A0
+Entry Wire Line
+	3400 3025 3500 2925
+Entry Wire Line
+	3400 2925 3500 2825
+Entry Wire Line
+	3400 2825 3500 2725
+Entry Wire Line
+	3400 2725 3500 2625
+Entry Wire Line
+	3400 2625 3500 2525
+Entry Wire Line
+	3400 2525 3500 2425
+Entry Wire Line
+	3400 2425 3500 2325
+Entry Wire Line
+	3400 2325 3500 2225
+Entry Wire Line
+	3400 2225 3500 2125
+Entry Wire Line
+	3400 2125 3500 2025
+Entry Wire Line
+	3400 2025 3500 1925
+Entry Wire Line
+	3400 1925 3500 1825
+Entry Wire Line
+	3400 1825 3500 1725
+Entry Wire Line
+	3400 1725 3500 1625
+Entry Wire Line
+	3400 1625 3500 1525
+Entry Wire Line
+	5400 2925 5500 2825
+Entry Wire Line
+	5400 2825 5500 2725
+Entry Wire Line
+	5400 2725 5500 2625
+Entry Wire Line
+	5400 2625 5500 2525
+Entry Wire Line
+	5400 2525 5500 2425
+Entry Wire Line
+	5400 2425 5500 2325
+Entry Wire Line
+	5400 2325 5500 2225
+Entry Wire Line
+	5400 2225 5500 2125
+Entry Wire Line
+	5400 2125 5500 2025
+Entry Wire Line
+	5400 2025 5500 1925
+Entry Wire Line
+	5400 1925 5500 1825
+Entry Wire Line
+	5400 1825 5500 1725
+Entry Wire Line
+	5400 1725 5500 1625
+Entry Wire Line
+	5400 1625 5500 1525
+Entry Wire Line
+	7300 2225 7400 2325
+Entry Wire Line
+	7300 2125 7400 2225
+Entry Wire Line
+	7300 2025 7400 2125
+Entry Wire Line
+	7300 1925 7400 2025
+Entry Wire Line
+	7300 1825 7400 1925
+Entry Wire Line
+	7300 1725 7400 1825
+Entry Wire Line
+	7300 1625 7400 1725
+Entry Wire Line
+	7300 1525 7400 1625
+Entry Wire Line
+	4800 2225 4900 2325
+Entry Wire Line
+	4800 2125 4900 2225
+Entry Wire Line
+	4800 2025 4900 2125
+Entry Wire Line
+	4800 1925 4900 2025
+Entry Wire Line
+	4800 1825 4900 1925
+Entry Wire Line
+	4800 1725 4900 1825
+Entry Wire Line
+	4800 1625 4900 1725
+Entry Wire Line
+	4800 1525 4900 1625
+Entry Wire Line
+	2650 3025 2750 3125
+Entry Wire Line
+	2650 2925 2750 3025
+Entry Wire Line
+	2650 2825 2750 2925
+Entry Wire Line
+	2650 2725 2750 2825
+Entry Wire Line
+	2650 2625 2750 2725
+Entry Wire Line
+	2650 2525 2750 2625
+Entry Wire Line
+	2650 2425 2750 2525
+Entry Wire Line
+	2650 2325 2750 2425
+Entry Wire Line
+	2650 2225 2750 2325
+Entry Wire Line
+	2650 2125 2750 2225
+Entry Wire Line
+	2650 2025 2750 2125
+Entry Wire Line
+	2650 1925 2750 2025
+Entry Wire Line
+	2650 1825 2750 1925
+Entry Wire Line
+	2650 1725 2750 1825
+Entry Wire Line
+	2650 1625 2750 1725
+Entry Wire Line
+	2650 1525 2750 1625
+$Comp
+L 6502-Watch-rescue:HM62256BLFP-5SLT U2
+U 1 1 594B5E02
+P 4150 2275
+F 0 "U2" H 3850 3175 50  0000 C CNN
+F 1 "62256" H 4150 1475 50  0000 C CNN
+F 2 "Housings_SSOP:SOP-28_8.40x48mm_Pitch1.27mm" H 4150 2275 50  0001 C CIN
+F 3 "" H 4150 2275 50  0001 C CNN
+	1    4150 2275
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

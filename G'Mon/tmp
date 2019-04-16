@@ -1,0 +1,1 @@
+ROM1: start = $c03f, size = $3F00, fill = no;
